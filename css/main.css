@@ -7,3 +7,56 @@
 body {
 	font-family: "Open Sans", sans-serif;
 }
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+nav {
+	height: 60px;
+	background-color: #ddd;
+	line-height: 60px;
+	text-align: center;
+}
+
+.burger-icon {
+	display: block;
+	margin-left: auto;
+	line-height: 60px;
+	font-size: 30px;
+	padding: 0 30px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+.burger-icon:hover {
+	color: tomato;
+	font-size: 40px;
+}
+
+.nav-items {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.nav-items {
+		display: block;
+	}
+	.burger-icon {
+		display: none;
+	}
+
+	.nav-items a {
+		padding: 0 40px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: darkslategray;
+		transition: color 0.3s;
+	}
+	.nav-items a:hover {
+		color: tomato;
+	}
+}
