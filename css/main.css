@@ -7,6 +7,11 @@
 body {
 	font-family: "Open Sans", sans-serif;
 }
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
 
 nav {
 	height: 60px;
@@ -30,13 +35,9 @@ nav {
 	color: tomato;
 	font-size: 40px;
 }
-.wrapper {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1200px;
-}
+
 .nav-items {
-    display: none;
+	display: none;
 }
 
 @media (min-width: 768px) {
@@ -46,16 +47,16 @@ nav {
 	.burger-icon {
 		display: none;
 	}
-    
-    .nav-items a {
-        padding: 0 40px;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: darkslategray;
-        transition: color 0.3s;
-    }
-    .nav-items a:hover {
-        color: tomato;
-    }
+
+	.nav-items a {
+		padding: 0 40px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: darkslategray;
+		transition: color 0.3s;
+	}
+	.nav-items a:hover {
+		color: tomato;
+	}
 }
