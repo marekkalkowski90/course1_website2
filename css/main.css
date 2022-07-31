@@ -186,6 +186,9 @@ footer {
         display: inline-block;
         width: 50%;
     }
+	.section-title {
+		font-size: 36px;
+	}
 }
 
 @media (min-width: 1200px) {
